@@ -13,6 +13,6 @@ let d = a.slice(3, a.length);
 console.log(d);
 let str = ["dsferty"];
 console.log("str");
-let upt = c.concat(str).concat(d);
+let upt = c.concat(str,d);
 console.log(upt);
 console.log(upt.length);
